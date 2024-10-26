@@ -13,7 +13,7 @@ public class testSotedset {
         for (int i = 0; i < 20; i++) {
           //  int x = (int) (Math.random() * 100)+10;
             x = new Student();
-            x.setId(i+101);
+            x.setId(101);
             list.add(x); //ซ้ำได้
             set.add(x); //ห้ามซ้ำ เรียงตามkey
         }
